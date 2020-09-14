@@ -33,11 +33,11 @@ start_btn.addEventListener("click",function(){
         }
        
         else if(a>random_number){
-            msg="Your entered number is greater than the correct answer.Try Again.";
+            alert("Your entered number is greater than the correct answer.");
             lose=true;
         }
         else if(a<random_number){
-            msg="Your entered number is lesser than the correct answer.Try Again.";
+            alert("Your entered number is lesser than the correct answer.");
             lose=true;
         }
         else {
