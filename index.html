@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <style>
+        body{
+            background-color: papayawhip;
+        }
+        .heading1{
+            font-size: 50px;
+            margin: 20px 0;
+            text-align: center;
+            color: greenyellow;
+        }
+        .heading2{
+            color: green;
+            text-align: center;
+        }
+        span{
+            color: red;
+            font-size: 50px;
+        }
+        .result{
+            font-size: 60px;
+            position: absolute;
+            text-transform: uppercase;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);    
+            text-align: center;
+            color: rgb(238, 230, 238);
+         }
+         #start{
+             width: 200px;
+             height: 50px;
+             font-size: 25px;
+             background-color: blue;
+             color: white;
+             display: block;
+             margin: 0 auto;
+         }
+    </style>
+</head>
+<body>
+    <h1 class="heading1">NUMBER GUESSING GAME</h1>
+    <h1 class="heading2">Choose a number between <span>10</span> to <span>20</span>:</h1>
+    <button id="start">Start </button>
+    <h1 class="result" id="result"></h1>
+   <script src="script.js"></script>
+</body>
+</html>
